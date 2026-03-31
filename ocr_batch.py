@@ -16,8 +16,8 @@ from pathlib import Path
 # =============================================
 # ★ 設定
 # =============================================
-PDF_FOLDER    = r"C:\Users\j7214\Desktop\建築設備"
-OUTPUT_FOLDER = r"C:\Users\j7214\Desktop\建築設備\OCR出力"
+PDF_FOLDER    = r"/app/input"
+OUTPUT_FOLDER = r"/app/OCR_output"
 PARALLEL_JOBS = 4   # 並列数（メモリ不足なら2に下げる）
 TEST_PAGES    = 5   # テストするページ数
 # =============================================

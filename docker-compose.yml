@@ -1,0 +1,8 @@
+name: ocr-tool
+
+services:
+  ocr:
+    build: .
+    volumes:
+      - ./input:/app/input
+      - ./OCR_output:/app/OCR_output
